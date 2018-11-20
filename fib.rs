@@ -1,10 +1,3 @@
-fn fib(n: u128) -> u128 {
-    match n {
-        0 => 0,
-        1 => 1,
-        m => fib(m - 1) + fib(m - 2),
-    }
-}
-fn main() {
-    println!("Fib(5) = {}", fib(5));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:601f2f56c019c5be991e7b81f0832d4e3995cf730cdb2e0eddc8895a716c1743
+size 169
