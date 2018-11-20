@@ -1,0 +1,8 @@
+[package]
+name = "allocators"
+version = "0.1.0"
+links = "clib"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.43"
