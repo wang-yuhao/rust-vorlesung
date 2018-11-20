@@ -1,0 +1,10 @@
+[package]
+name = "fractal"
+authors = ["Thomas Prokosch <thomas.prokosch@ifi.lmu.de>"]
+version = "0.1.0"
+
+[dependencies]
+gdk = "0.9"
+gdk-pixbuf = "0.5"
+gtk = "0.5"
+cairo-rs = "0.5"
