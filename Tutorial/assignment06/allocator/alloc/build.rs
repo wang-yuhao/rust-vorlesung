@@ -5,13 +5,13 @@ use std::path::Path;
 fn main() {
     let out_dir = env::var("OUT_DIR").unwrap();
 
-    Command::new("gcc").args(&["clib.c", "-c", "-fPIC", "-o"])
-                       .arg(&format!("{}/clib.o", out_dir))
+    Command::new("gcc").args(&["alloc.c", "-c", "-fPIC", "-o"])
+                       .arg(&format!("{}/alloc.o", out_dir))
                        .status().expect("GCC failed");
-    Command::new("ar").args(&["crus", "libclib.a", "clib.o"])
+    Command::new("ar").args(&["crus", "liballoc.a", "alloc.o"])
                       .current_dir(&Path::new(&out_dir))
                       .status().expect("Linker ar failed");
 
     println!("cargo:rustc-link-search=native={}", out_dir);
-    println!("cargo:rustc-link-lib=static=clib");
+    println!("cargo:rustc-link-lib=static=alloc");
 }
