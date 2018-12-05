@@ -1,0 +1,7 @@
+[package]
+name = "assignment08"
+version = "0.1.0"
+authors = ["yuhao <wang.yuhao@campus.lmu.de>"]
+
+[dependencies]
+timely = "0.7.0"

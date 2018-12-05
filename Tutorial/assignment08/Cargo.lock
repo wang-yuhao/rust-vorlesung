@@ -1,0 +1,120 @@
+[[package]]
+name = "abomonation"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "abomonation_derive"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "quote 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)",
+ "syn 0.11.11 (registry+https://github.com/rust-lang/crates.io-index)",
+ "synstructure 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "assignment08"
+version = "0.1.0"
+dependencies = [
+ "timely 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "getopts"
+version = "0.2.18"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "unicode-width 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "quote"
+version = "0.3.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "syn"
+version = "0.11.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "quote 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)",
+ "synom 0.11.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "unicode-xid 0.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "synom"
+version = "0.11.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "unicode-xid 0.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "synstructure"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "quote 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)",
+ "syn 0.11.11 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "timely"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "abomonation 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "abomonation_derive 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "timely_bytes 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "timely_communication 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "timely_logging 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "timely_bytes"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "timely_communication"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "abomonation 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "abomonation_derive 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "getopts 0.2.18 (registry+https://github.com/rust-lang/crates.io-index)",
+ "timely_bytes 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "timely_logging 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "timely_logging"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "unicode-width"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "unicode-xid"
+version = "0.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum abomonation 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f6b72851223d8747938515812ef24e3f678452a4e5201d61e1954ab378ad8601"
+"checksum abomonation_derive 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e0bb1889db0b87cd8ef839c56b5283e28c8db68cac904b400a6170c9af1e673c"
+"checksum getopts 0.2.18 (registry+https://github.com/rust-lang/crates.io-index)" = "0a7292d30132fb5424b354f5dc02512a86e4c516fe544bb7a25e7f266951b797"
+"checksum quote 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)" = "7a6e920b65c65f10b2ae65c831a81a073a89edd28c7cce89475bff467ab4167a"
+"checksum syn 0.11.11 (registry+https://github.com/rust-lang/crates.io-index)" = "d3b891b9015c88c576343b9b3e41c2c11a51c219ef067b264bd9c8aa9b441dad"
+"checksum synom 0.11.3 (registry+https://github.com/rust-lang/crates.io-index)" = "a393066ed9010ebaed60b9eafa373d4b1baac186dd7e008555b0f702b51945b6"
+"checksum synstructure 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)" = "3a761d12e6d8dcb4dcf952a7a89b475e3a9d69e4a69307e01a470977642914bd"
+"checksum timely 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d28fcaaae6f0b858e05e5fd6fc6051d82675a6a48c019aea6e32be1a9c9006a9"
+"checksum timely_bytes 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "23e52a6661d7acf0385c83b596612710552ba40e34f548a5489096bcc93ceb89"
+"checksum timely_communication 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)" = "34d5f951da384623299fbcffd9b02c9ca8e84767223f16fa8eb85a55584e9e38"
+"checksum timely_logging 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "bc99fee0363f3c8f31a940a28901ae3fdcaad23a3e04a295c98ae4f6f983aa81"
+"checksum unicode-width 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "882386231c45df4700b275c7ff55b6f3698780a650026380e72dabe76fa46526"
+"checksum unicode-xid 0.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "8c1f860d7d29cf02cb2f3f359fd35991af3d30bac52c57d265a3c461074cb4dc"

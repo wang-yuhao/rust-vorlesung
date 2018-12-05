@@ -1,0 +1,10 @@
+[package]
+name = "u7"
+version = "0.1.0"
+authors = ["yuhao <wang.yuhao@campus.lmu.de>"]
+
+[dependencies]
+hyper = "0.12.16"
+futures = "0.1.25"
+hyper-tls = "0.3.1"
+tokio = "0.1.13"

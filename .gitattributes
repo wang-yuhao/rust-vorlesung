@@ -1,4 +1,0 @@
-fib.rs filter=lfs diff=lfs merge=lfs -text
-fractal-66460a1cc5333947 filter=lfs diff=lfs merge=lfs -text
-libgio-45f7cbfaa2801787.rlib filter=lfs diff=lfs merge=lfs -text
-libgtk-9f264232dce327f5.rlib filter=lfs diff=lfs merge=lfs -text
