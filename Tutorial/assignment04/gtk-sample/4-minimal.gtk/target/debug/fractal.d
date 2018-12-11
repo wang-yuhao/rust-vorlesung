@@ -1,1 +1,0 @@
-/home/yuhao/Workspace/rust-vorlesung/Tutorial/assignment04/gtk-sample/4-minimal.gtk/target/debug/fractal: /home/yuhao/Workspace/rust-vorlesung/Tutorial/assignment04/gtk-sample/4-minimal.gtk/src/main.rs
